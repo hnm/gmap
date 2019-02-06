@@ -1,0 +1,10 @@
+{
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "n2n/rocket": "dev-master"
+    },
+	"require-dev" : {
+		"n2n/hangar" : "dev-master"
+	}
+}
