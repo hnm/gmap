@@ -6,7 +6,7 @@ use n2n\util\StringUtils;
 use n2n\io\IoException;
 
 class GeocodingApiAccessor {
-	const GOOGLE_GEOCODING_API_URL = "http://maps.googleapis.com/maps/api/geocode/json?";
+	const GOOGLE_GEOCODING_API_URL = "https://maps.googleapis.com/maps/api/geocode/json?";
 	
 	public static function getLatLngForAddress(string $address, string $key) {
 		$url = self::GOOGLE_GEOCODING_API_URL . 'key=' . $key 
